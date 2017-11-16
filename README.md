@@ -15,7 +15,7 @@ This program concatenates and minifies JS files, compiles SCSS into a single min
 * CSSO (https://www.npmjs.com/package/csso)
 * Node-SASS (https://www.npmjs.com/package/node-sass)
 * Cache (https://docs.npmjs.com/cli/cache)
-* Imagemin (https://www.npmjs.com/package/imagemin)
+* Gulp-Image (https://www.npmjs.com/package/gulp-image)
 * Gulp-Sourcemaps (https://www.npmjs.com/package/gulp-sourcemaps)
 * Del (https://www.npmjs.com/package/del)
 * Gulp-Useref (https://www.npmjs.com/package/gulp-useref)
