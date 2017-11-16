@@ -10,7 +10,7 @@
        csso = require('gulp-csso'),
        sass = require('gulp-sass'),
       cache = require('gulp-cache'),
-   imagemin = require('gulp-imagemin'),
+      image = require('gulp-image'),
        maps = require('gulp-sourcemaps'),
         del = require('del'),
      useref = require('gulp-useref'),
@@ -65,10 +65,7 @@ gulp.task('styles', () => {
 ===================================================================== */
 gulp.task('images', () => {
   return gulp.src(`${options.src}/images/*.{jpg,png}`)
-    .pipe(cache(imagemin([
-      imagemin.jpegtran,
-      imagemin.optipng
-    ])))
+    .pipe(image())
     .pipe(gulp.dest(`${options.dist}/content`));
 });
 
@@ -79,8 +76,7 @@ gulp.task('images', () => {
 ===================================================================== */
 gulp.task('icons', () => {
   return gulp.src(`${options.src}/icons/**/*`)
-    .pipe(cache(imagemin([
-      imagemin.svgo
+    .pipe(cache(image([
     ])))
     .pipe(gulp.dest(`${options.dist}/icons`));
 });
