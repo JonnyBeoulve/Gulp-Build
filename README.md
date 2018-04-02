@@ -7,21 +7,11 @@ This program concatenates and minifies JS files, compiles SCSS into a single min
 3. Once the build and connect processes are complete, you can visit the website at 'http://localhost:3000'.
 
 ## Programming
-* Node.js (https://nodejs.org/en)
-* NPM (https://www.npmjs.com)
-* Gulp (https://www.npmjs.com/package/gulp)
-* Uglify (https://www.npmjs.com/package/uglify-js)
-* Rename (https://www.npmjs.com/package/rename)
-* CSSO (https://www.npmjs.com/package/csso)
-* Node-SASS (https://www.npmjs.com/package/node-sass)
-* Cache (https://docs.npmjs.com/cli/cache)
-* Gulp-Image (https://www.npmjs.com/package/gulp-image)
-* Gulp-Sourcemaps (https://www.npmjs.com/package/gulp-sourcemaps)
-* Del (https://www.npmjs.com/package/del)
-* Gulp-Useref (https://www.npmjs.com/package/gulp-useref)
-* Gulp-Replace (https://www.npmjs.com/package/gulp-replace)
-* HTTP-Server (https://www.npmjs.com/package/http-server)
-* Gulp-Connect (https://www.npmjs.com/package/gulp-connect)
+* HTML
+* CSS
+* JavaScript
+* Node.js
+* Gulp
 
 ## Note
 All tasks can be run independently, including the following:
