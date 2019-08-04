@@ -10,21 +10,21 @@ This program concatenates and minifies JS files, compiles SCSS into a single min
 
 ## Programming
 
-* HTML
-* CSS
-* JavaScript
-* Node.js
-* Gulp
+- HTML
+- CSS
+- JavaScript
+- Node.js
+- Gulp
 
 ## Note
 
 All tasks can be run independently, including the following:
 
-* gulp scripts
-* gulp styles
-* gulp images
-* gulp icons
-* gulp clean
-* gulp build
+- gulp scripts
+- gulp styles
+- gulp images
+- gulp icons
+- gulp clean
+- gulp build
 
 See the comments in 'gulpfile.js' to learn about what each of these tasks do.
